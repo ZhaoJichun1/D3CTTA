@@ -13,7 +13,7 @@ Extensive experiments on three benchmarks showcase that our method achieves a st
 
 ## Installation
 The code has been tested with Python 3.8, CUDA 10.2/11.1, pytorch 1.8.0 and pytorch-lighting 1.4.1.
-Any other version may requireq to update the code for compatibility.
+Any other version may require to update the code for compatibility.
 
 ### Pip/Venv/Conda
 In your virtual environment follow [MinkowskiEnginge](https://github.com/NVIDIA/MinkowskiEngine).
@@ -77,7 +77,7 @@ prepare the paths as follows:
 
 Pretrained model is trained on Synth4D. You can find the models [here](https://drive.google.com/file/d/1gT6KN1pYWj800qX54jAjWl5VGrHs8Owc/view?usp=sharing).
 
-After downloading the pretrained models decompress them in ```D_3CTTA/pretrained_models```.
+After downloading the pretrained models decompress them in ```D3CTTA/pretrained_models```.
 
 
 ## Adaptation to target
