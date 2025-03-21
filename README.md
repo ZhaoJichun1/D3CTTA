@@ -2,8 +2,7 @@
 
 
 
-## Introduction
-This project is based on [gipso-sfouda](https://github.com/saltoricristiano/gipso-sfouda) 
+## Abstract
 
 Adapting pre-trained LiDAR segmentation models to dynamic domain shifts during testing is of paramount importance for the safety of autonomous driving. 
 Most existing methods neglect the influence of domain changes and point density on the continual test-time adaption (CTTA) and require backpropagation and large batch sizes for stable adaption.
