@@ -1,0 +1,80 @@
+# This file is covered by the LICENSE file in the root of this project.
+labels: 
+  0 : 'Void'
+  1 : 'Sky'
+  2 : 'Building'
+  3 : 'Road'
+  4 : 'Sidewalk'
+  5 : 'Fence'
+  6 : 'Vegetation'
+  7 : 'Pole'
+  8 : 'Car'
+  9 : 'Traffic Sign'
+  10 : 'Pedestrian'
+  11 : 'Bicycle'
+  12 : 'Lanemarking'
+  13 : 'Reserved'
+  14 : 'Reserved'
+  15 : 'Traffic Light'
+
+content: # as a ratio with the total number of points $ mini nusc
+  0 : 0.001862411429
+  1 : 0.000004865757637
+  2 : 0.001948534888
+  3 : 0.000008724027852
+  4 : 0.0001259973709
+  5 : 0.000007881894868
+  6 : 0.000008275854075
+  7 : 0.000007959602418
+  8 : 0.00001099471475
+  9 : 0.008407871974
+  10 : 0.00006041400582
+  11 : 0.0006493468772
+  12 : 0.0006652480105
+  13 : 0.0001473967651
+  14 : 0.0001277213942
+  15 : 0.0003229950459
+
+
+# classes that are indistinguishable from single scan or inconsistent in
+# ground truth are mapped to their closest equivalent
+learning_map:
+  0 : -1
+  1 : -1
+  2 : 5 
+  3 : 2
+  4 : 3
+  5 : 5
+  6 : 6
+  7 : 5
+  8 : 0
+  9 : 5
+  10 : 1
+  11 : -1
+  12 : 2
+  13 : -1
+  14 : -1
+  15 : -1
+  
+  
+
+learning_map_inv: # inverse of previous map
+  -1: 0
+  0 : 8
+  1 : 10
+  2 : 3
+  3 : 4
+  4 : 0
+  5 : 2
+  6 : 6
+
+learning_ignore: # Ignore classes
+  -1: True      # "unlabeled", and others ignored
+  0: False
+  1: False
+  2: False
+  3: False
+  4: True
+  5: False
+  6: False
+
