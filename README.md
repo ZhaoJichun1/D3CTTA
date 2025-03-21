@@ -58,7 +58,7 @@ prepare the paths as follows:
         
 ```
 
-### nuScenes
+### nuScenes-C
 ```
 ./
 ├── 
@@ -88,7 +88,7 @@ To adapt the source model to the target domain SemanticKITTI-C
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python adapt_online.py --config_file configs/adaptation/test_kitti.yaml 
 ```
 
-To adapt the source model to the target domain SemanticKITTI-C
+To adapt the source model to the target domain NuScenes-C
 
 ```
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python adapt_online.py --config_file configs/adaptation/test_nusc.yaml 
