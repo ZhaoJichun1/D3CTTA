@@ -12,7 +12,7 @@ D^3CTTA consists of a distance-aware prototype learning module to integrate LiDA
 Extensive experiments on three benchmarks showcase that our method achieves a state-of-the-art performance compared to both backpropagation-based methods and backpropagation-free methods.
 
 ## Installation
-The code has been tested with Python 3.8, CUDA 10.2/11.1, pytorch 1.8.0 and pytorch-lighting 1.4.1.
+The code has been tested with Python 3.8, CUDA 11.1, pytorch 1.8.0 and pytorch-lighting 1.4.1.
 Any other version may require to update the code for compatibility.
 
 ### Pip/Venv/Conda
