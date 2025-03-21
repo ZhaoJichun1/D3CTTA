@@ -65,11 +65,23 @@ prepare the paths as follows:
 ├── ...
 └── path_to_data_shown_in_config/
           ├──v1.0-trainval
-          ├──v1.0-test
-          ├──samples
-          ├──sweeps
-          ├──maps
-          └──lidarseg
+          ├──beam_missing
+          |     ├── heavy/
+          |     |   ├── lidarseg/
+          |     |   |   ├── v1.0-trainval
+          |     |   |       ├── ....bin
+          |     |   |       ├── ....bin 
+          |     |   |       └── ...
+          |     |   ├── sample/
+          |     |       ├── LIDAR_TOP
+          |     |           ├── ....pcd.bin
+          |     |           ├── ....pcd.bin 
+          |     |           └── ...
+          |     ├── light/ 
+          |     └── moderate/
+          ├── cross_sensor/
+          ├── crosstalk/
+          └── ...
 ```
 
 
