@@ -87,7 +87,7 @@ prepare the paths as follows:
 
 ## Pretrained models
 
-Pretrained model is trained on Synth4D. You can find the models [here](https://drive.google.com/file/d/1gT6KN1pYWj800qX54jAjWl5VGrHs8Owc/view?usp=sharing).
+Pretrained model is trained on Synth4D. You can find the models [here](https://drive.google.com/file/d/1yEoyY0n2nQxcKsGEUnoHZeA2ly0Auyw6/view?usp=sharing).
 
 After downloading the pretrained models decompress them in ```D3CTTA/pretrained_models```.
 
